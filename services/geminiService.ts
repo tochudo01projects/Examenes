@@ -2,7 +2,7 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { Question, SOURCE_TEXT } from "../types";
 
 // Initialize the client with the API key from the environment
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 const questionSchema: Schema = {
   type: Type.OBJECT,
