@@ -1,0 +1,5 @@
+{
+  "name": "BioMech Exam Pro",
+  "description": "A university-level biomechanics examination platform powered by Gemini to generate questions from course material and track student results.",
+  "requestFramePermissions": []
+}
